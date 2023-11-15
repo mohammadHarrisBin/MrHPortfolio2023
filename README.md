@@ -11,7 +11,7 @@ A simple portfolio template for developer/designers built with React.
 - Fully Responsive
 - Multi-Page Layout
 - Contact Form With EmailJs
-- React-Bootstrap
+- React-Bootstra
 - Edit Content From One Place
 
 ### Setup
