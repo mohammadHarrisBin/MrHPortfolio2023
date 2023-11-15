@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/mohammadharrisbin.github.io/mohammadHarrisBin/MrHPortfolio2023/static/css/main.af31dd09.css",
-    "main.js": "/mohammadharrisbin.github.io/mohammadHarrisBin/MrHPortfolio2023/static/js/main.a55154a9.js",
-    "index.html": "/mohammadharrisbin.github.io/mohammadHarrisBin/MrHPortfolio2023/index.html"
+    "main.css": "/MrHPortfolio2023/static/css/main.af31dd09.css",
+    "main.js": "/MrHPortfolio2023/static/js/main.8611a792.js",
+    "index.html": "/MrHPortfolio2023/index.html"
   },
   "entrypoints": [
     "static/css/main.af31dd09.css",
-    "static/js/main.a55154a9.js"
+    "static/js/main.8611a792.js"
   ]
 }
