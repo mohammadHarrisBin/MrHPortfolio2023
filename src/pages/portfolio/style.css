@@ -46,7 +46,7 @@
 }
 
 .po_item .content {
-    opacity: 0;
+    opacity: 1;
     transition-delay: 1s;
     transition: 0.3s ease;
     font-size: 20px;
@@ -75,6 +75,6 @@
     font-size: 1rem;
 }
 
-.po_item .content a:hover {
+/* .po_item .content a:hover {
     text-decoration: none;
-}
+} */

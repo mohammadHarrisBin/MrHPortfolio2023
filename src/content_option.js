@@ -1,144 +1,118 @@
-const logotext = "JOHN";
+const logotext = "MrH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Mohammad Harris",
+    description: "I’m Mohammad Harris, currently a student from RP",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Mohammad Harris, Student",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "From Republic Polytechnic",
+        second: "I code websites",
+        third: "I code mobile apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Web Developer & Student",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Introduction",
+    aboutme: "As a highly self-motivated 2nd-year student, I am enthusiastic about gaining practical experience within the Information Technology sector. I am actively seeking an internship position where I can leverage my programming and web development skills, which include proficiency in HTML, CSS, JavaScript, Python, React, React-Native, Firebase, MySQL, and Java. My aim is to not only enhance my own skills and knowledge but also make a valuable contribution to the organization I work with.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Acceset, Intern",
+        where: "Singapore",
+        date: "2022",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+ 
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
+        name: "HTML, CSS, Javascript",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Javascript Framework - React",
+        value: 50,
     },
+    {
+        name: "Firebase Integration",
+        value:90
+    },
+    {
+        name: "Django and Flask",
+        value: 30,
+    },
+    {
+        name: "Programming Fundamentals (Python & JAVA)",
+        value: 40,
+    },
+    {
+        name: "MySQL",
+        value: 40,
+    },
+    {
+        name: "Wordpress Development",
+        value: 20
+    }
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "Create and develop frontend with Javascript framework - React or 3rd party firebase backend infrastructure integration or Backend framworks such as Django and flask towards a running website.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile Development",
+        description: "Create and develop mobile web apps using React-Native and backend integration API is any",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Database design",
+        description: "MySQL database design infrastructure for the backend",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "src/assets/images/project1.PNG",
+        description: "Project Management App - Excid.",
+        link: "https://excid-main-platform-5igw0nhqx-mohammad-harris.vercel.app/home",
+    },
+    {
+        img: "src/assets/images/project1.PNG",
+        description: "LinkedIn Clone - Excid.",
+        link: "https://linkedin-clone-fb0dc.firebaseapp.com/",
+    },
+    {
+        img: "src/assets/images/project1.PNG",
+        description: "Outlook Clone - Excid.",
+        link: "https://outlook-56dcf.firebaseapp.com/",
+    },
+    {
+        img: "src/assets/images/project1.PNG",     
+        description: "Chrome Extension - CRYPTO SCAM PREVENTER * NOT UPDATED",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "src/assets/images/project1.PNG",
+        description: "BOSE - Headphone frontend sale",
+        link: "https://figmabuild1-bose.pages.dev/#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "src/assets/images/project1.PNG",
+        description: "Password keeper - basic react",
+        link: "https://mohammadharrisbin.github.io/PasswordKeeper-React/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "src/assets/images/project1.PNG",
+        description: "Pokemon API integration With React",
+        link: "https://pokemonapp.pages.dev/",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+   
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "22044242@myrp.edu.sg",
+    YOUR_FONE: "(65) 88338676",
+    // description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +121,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/mohammadHarrisBin",
+    // facebook: "https://facebook.com",
+    linkedin: "https://www.linkedin.com/in/mohammad-harris-8a66641bb/",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,

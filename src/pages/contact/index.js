@@ -69,12 +69,12 @@ export const ContactUs = () => {
       <Container>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>{meta.title} | Contact</title>
+          <title>{meta.title} | Contact </title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
+            <h1 className="display-4 mb-4">Contact Me - <br/>FORM coming soon!</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -115,7 +115,7 @@ export const ContactUs = () => {
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
-                  <input
+                  {/* <input
                     className="form-control"
                     id="name"
                     name="name"
@@ -124,10 +124,10 @@ export const ContactUs = () => {
                     type="text"
                     required
                     onChange={handleChange}
-                  />
+                  /> */}
                 </Col>
                 <Col lg="6" className="form-group">
-                  <input
+                  {/* <input
                     className="form-control rounded-0"
                     id="email"
                     name="email"
@@ -136,10 +136,10 @@ export const ContactUs = () => {
                     value={formData.email || ""}
                     required
                     onChange={handleChange}
-                  />
+                  /> */}
                 </Col>
               </Row>
-              <textarea
+              {/* <textarea
                 className="form-control rounded-0"
                 id="message"
                 name="message"
@@ -149,12 +149,12 @@ export const ContactUs = () => {
                 onChange={handleChange}
                 required
               ></textarea>
-              <br />
+              <br /> */}
               <Row>
                 <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit">
+                  {/* <button className="btn ac_btn" type="submit">
                     {formData.loading ? "Sending..." : "Send"}
-                  </button>
+                  </button> */}
                 </Col>
               </Row>
             </form>
